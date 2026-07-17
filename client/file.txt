@@ -1,0 +1,9 @@
+This project implements a simplified version of the Trivial File Transfer Protocol (TFTP) 
+using the UDP protocol in C. It enables file transfer between a client and a server using fundamental 
+networking concepts such as sockets, datagrams, and timeout handling. The system supports both file 
+download (RRQ) and file upload (WRQ) operations, along with reliable data transfer through block 
+numbering, acknowledgments, and retransmission mechanisms.The implementation includes features like
+netascii and octet modes, error handling, and timeout-based retransmission to ensure correct and efficient 
+communication. A command-line interface is provided on the client side to perform operations such as get, 
+put, connect, and mode.This project demonstrates practical understanding of UDP communication, protocol 
+design, and file transfer mechanisms in network programming.
